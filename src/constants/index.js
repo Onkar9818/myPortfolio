@@ -252,15 +252,21 @@ const navLinks = [
       
     },
     {
-      name: "insta",
-      url:"https://www.instagram.com/fitwithonkar/",
-      imgPath: "/images/insta.png",
+      name: "Git",
+      url:"https://github.com/Onkar9818/",
+      imgPath: "/images/github.png",
       
     },
     {
       name: "x",
       url:"https://x.com/onkar_21?s=11",
       imgPath: "/images/x.png",
+      
+    },
+    {
+      name: "insta",
+      url:"https://www.instagram.com/fitwithonkar/",
+      imgPath: "/images/insta.png",
       
     },
     
