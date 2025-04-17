@@ -254,7 +254,7 @@ const navLinks = [
     {
       name: "Git",
       url:"https://github.com/Onkar9818/",
-      imgPath: "/images/github.png",
+      imgPath: "/images/git.png",
       
     },
     {
