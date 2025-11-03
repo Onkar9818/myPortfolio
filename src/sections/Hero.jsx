@@ -59,7 +59,7 @@ const Hero = () => {
 
                 </div>
                 <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                    Hello, I'm Onkar Savaratkar, a Full-stack Developer.
+                    Hello, I'm Onkar Savaratkar, a Python Developer.
                 </p>
                 <Button
                     className="md:w-80 md:h-16 w-60 h-12"

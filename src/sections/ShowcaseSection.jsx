@@ -49,14 +49,14 @@ const ShowcaseSection = () => {
                 {/* LEFT */}
                 <div className='first-project-wrapper' ref={project1Ref}>
                     <div className='image-wrapper'>
-                        <img src="/images/clothing2.png" alt="Clothing"/>
+                        <img src="/images/hospital.png" alt="Hospital"/>
                     </div>
                     <div className='text-content'>
                         <h2>
-                            Made a User-Friendly Clothing store App 
+                            Hospital Administration Platform 
                         </h2>
                         <p className='text-white-50 md:text-xl'>
-                            An app built with a responsive front-end using HTML, CSS, and JavaScript for seamless UX and designed back-end RESTful APIs with Flask to manage product and user data.
+                        Developed a comprehensive web-based hospital administration platform designed to streamline hospital operations and patient management.
                         </p>
                     </div>
                 </div>
@@ -64,16 +64,16 @@ const ShowcaseSection = () => {
 
                 <div className='project-list-wrapper overflow-hidden' >
                     <div className='project' ref={project2Ref}>
-                        <div className='image-wrapper bg-[#ffefdb]'>
-                            <img src="/images/faceapp.png" alt="Face recognition Attendance system"/>
+                        <div className='image-wrapper '>
+                            <img src="/images/claim1.png" alt="Claim Management System"/>
                         </div>
-                        <h2>Face recognition Attendance system</h2>
+                        <h2>Claim Management System</h2>
                     </div>
                     <div className='project' ref={project3Ref}>
-                        <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src="/images/portfolio.png" alt="portfolio"/>
+                        <div className='image-wrapper '>
+                            <img src="/images/clothing1.png" alt="clothing"/>
                         </div>
-                        <h2>Currently working on my portfolio</h2>
+                        <h2>Made a User-Friendly Clothing store App</h2>
                     </div>
                 </div>
 

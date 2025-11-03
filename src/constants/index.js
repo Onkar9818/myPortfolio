@@ -29,10 +29,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 1, suffix: "+", label: "Years of Hands on Experience" },
-    { value: 10, suffix: "+", label: "Satisfied Clients" },
-    { value: 4, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Team Collaboration Index" },
+    { value: 1.5, suffix: "+", label: "Years of Hands on Experience" },
+    { value: 2, suffix: "+", label: "Satisfied Clients" },
+    { value: 3, suffix: "+", label: "Completed Projects" },
+    { value: 100, suffix: "%", label: "Team Collaboration Index" },
   ];
   
   const logoIconsList = [
@@ -91,10 +91,6 @@ const navLinks = [
   
   const techStackImgs = [
     {
-      name: "React Developer",
-      imgPath: "/images/logos/react.png",
-    },
-    {
       name: "Python Developer",
       imgPath: "/images/logos/python.svg",
     },
@@ -103,22 +99,21 @@ const navLinks = [
       imgPath: "/images/logos/node.png",
     },
     {
+      name: "React Developer",
+      imgPath: "/images/logos/react.png",
+    },
+    
+    {
       name: "Interactive Developer",
       imgPath: "/images/logos/three.png",
     },
-    {
-      name: "Project Manager",
-      imgPath: "/images/logos/git.svg",
-    },
+    // {
+    //   name: "Project Manager",
+    //   imgPath: "/images/logos/git.svg",
+    // },
   ];
   
   const techStackIcons = [
-    {
-      name: "React Developer",
-      modelPath: "/models/react_logo-transformed.glb",
-      scale: 1,
-      rotation: [0, 0, 0],
-    },
     {
       name: "Python Developer",
       modelPath: "/models/python-transformed.glb",
@@ -131,55 +126,63 @@ const navLinks = [
       scale: 5,
       rotation: [0, -Math.PI / 2, 0],
     },
+    
+    {
+      name: "React Developer",
+      modelPath: "/models/react_logo-transformed.glb",
+      scale: 1,
+      rotation: [0, 0, 0],
+    },
+    
     {
       name: "Interactive Developer",
       modelPath: "/models/three.js-transformed.glb",
       scale: 0.05,
       rotation: [0, 0, 0],
     },
-    {
-      name: "Project Manager",
-      modelPath: "/models/git-svg-transformed.glb",
-      scale: 0.05,
-      rotation: [0, -Math.PI / 4, 0],
-    },
+    // {
+    //   name: "Project Manager",
+    //   modelPath: "/models/git-svg-transformed.glb",
+    //   scale: 0.05,
+    //   rotation: [0, -Math.PI / 4, 0],
+    // },
   ];
   
   const expCards = [
     {
-      review: "Clothing E-commerce WebApp",
-      imgPath: "/images/exp1.png",
+      review: "Hospital Administration Platform",
+      imgPath: "",
       logoPath: "/images/pythonlogo.png",
-      title: "Frontend Developer",
+      title: "Python Developer",
       // date: "January 2023 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features in Clothing website",
+        "Implemented secure user authentication (Flask-Login, session management) for admins, doctors, and patients.",
         "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Built RESTful APIs using Flask to manage patient, doctor, and appointment data.",
       ],
     },
     {
-      review: "Attendance System using face-recognition",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/reactlogo.png",
-      title: "Full Stack Developer",
+      review: "Claim Management System",
+      imgPath: "",
+      logoPath: "/images/pythonlogo.png",
+      title: "Backend Developer",
       // date: "June 2020 - December 2023",
       responsibilities: [
-        "Led the development of Attendance web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects.",
+        "Developed a web-based claims management application for insurance/claims operations.",
+        "Implemented user authentication, role-based access, claim submission, tracking, and dashboard analytics.",
+        "Used MySQL as the relational database to store users, claims, statuses, and audit logs.",
       ],
     },
     {
-      review: "myPortfolio",
-      imgPath: "/images/exp3.png",
-      logoPath: "/images/reactlogo.png",
-      title: "React Developer",
+      review: "Clothing Store App",
+      imgPath: "",
+      logoPath: "/images/pythonlogo.png",
+      title: "Fullstack Developer",
       // date: "March 2019 - May 2020",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Collaborated with designers to create visually appealing and user-friendly interfaces.",
+        "Developed a responsive front-end using HTML, CSS, and JavaScript for seamless UX",
+        "Designed back-end RESTful APIs with Flask to manage product and user data.",
+        "Managed MySQL database for dynamic content handling and scalability.",
       ],
     },
   ];
